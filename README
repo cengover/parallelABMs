@@ -1,0 +1,11 @@
+To run Repast HPC models please install Repast HPC from https://repast.github.io and change the PATHs in the makefile accordingly. 
+
+run.sh scripts in the folders run the models with different configurations and generates the output for each process and each random seed.
+
+Ordered folder has the ordered example in the paper (uses the same order of execution for egents at each time tick). 
+
+Shuffled folder shuffles the agents at each time tick having different order of execution. 
+
+Shuffled_layered uses the value layers solution of Repast HPC to provide consistent results.
+
+Ross_Model has the model implemented with ROSS - Discrete event example. 
